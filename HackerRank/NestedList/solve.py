@@ -59,7 +59,7 @@ def solve(data):
     scores = sorted(set([score for name, score in data]))
     # Find the second lowest score
     second_lowest_score = scores[1]
-    # Step 3: Extract the sublists where the score is equal to the second-lowest score
+    #  Extract the sublists where the score is equal to the second-lowest score
     second_lowest_students = [
         name for name, score in data if score == second_lowest_score
     ]
