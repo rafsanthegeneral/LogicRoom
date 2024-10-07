@@ -1,7 +1,9 @@
 
 def solve(student_marks,query_name):
-    print (student_marks)
-    print (type(student_marks))
+    for key,value in student_marks.items():
+          if key == query_name:
+               result = sum(value)/len(value)
+               print('%.2f' % result)
     
 
 
