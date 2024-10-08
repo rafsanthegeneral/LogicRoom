@@ -15,7 +15,10 @@ Consider a list (list = []). You can perform the following commands:
 listed above. Iterate through each command in order and perform the corresponding operation on your list.
 
 Example
+
 ![alt text](image.png)
+
+
 Output:
     [1, 3, 2]
 
